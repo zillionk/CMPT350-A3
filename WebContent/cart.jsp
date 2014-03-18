@@ -29,7 +29,7 @@
 			<form action="<%=response.encodeURL("cart") %>" method="post">
 				<input type="hidden" name="ISBN" value="<%=book.getCode()%>">
 				<input type="text" name="quantity" value="<%=item.getQuantity() %>">
-				<input type="submit" name="Update">	
+				<input type="submit" name="Update" value="Update">	
 			</form>
 		</td>
 		<td>
